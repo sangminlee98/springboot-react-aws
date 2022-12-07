@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-
 @RequestMapping("test")
 public class TestController {
     @GetMapping
@@ -49,9 +48,3 @@ public class TestController {
 //        return ResponseEntity.ok().body(response);
     }
 }
-
-//@RestController
-//@RequestMapping("todo")
-//public class TodoController {
-//    // testTodo 메서드 작성하기
-//}
